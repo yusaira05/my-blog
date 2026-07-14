@@ -1,0 +1,100 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #696767;
+    cursor: pointer;
+}
+
+.logo {
+    height: 100%;
+}
+
+.btn, .nav-btn {
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.form-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 30px;
+    box-shadow: 0px 3px 10px #dddada;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input, #id, input[type="email"], .body-field, .text-field {
+    border: 1px solid #e2dfdf;
+    border-radius: 50px;
+    padding: 4px 25px;
+    height: 40px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    outline: none;
+}
+
+.body-field:focus, .text-field:focus{
+    border: 2px solid #ffa500
+}
+
+.body-field{
+    height: 100px;
+    border-radius: 20px;
+    padding-top: 10px
+}
+
+.btn{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 45px;
+}
