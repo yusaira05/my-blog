@@ -72,6 +72,7 @@ anc, abc, yas, lope = "" ''
         </div>
     </nav>
     <main class="container">
+        <h1> new heading </h1>
 
         <!-- This is our main content area. This is where the content of each page will go. For example, on the home page, we might have a list of recent blog posts. On the about page, we might have some information about the author. On the contact page, we might have a contact form. -->
         <h1>Articles</h1>
